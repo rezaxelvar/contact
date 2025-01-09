@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  overflow-x: hidden;
+  outline: none;
+  border: none;
+}
+
+:root {
+  --color1: #b1a1ed;
+  --color2: #9382d4;
+  --color3: #f2f3f4;
+}
+
+::-webkit-scrollbar {
+  width: 0.65rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color3);
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  cursor: default;
+}
+
+::selection {
+  background-color: #fff;
+  color: var(--color1);
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color2);
+}
+
+.kotak-tengah {
+  display: flex;
+  background-color: var(--color3);
+}
+
+.forming {
+  display: grid;
+  padding: 2rem;
+  width: 32rem;
+  background-color: var(--color1);
+}
+
+.forming h1 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+
+.garis-kemetongan {
+  width: 24%;
+  background-color: #fff;
+  height: 0.25rem;
+  margin-bottom: 2rem;
+  margin-left: 0.2rem;
+}
+
+.inputing input {
+  margin-bottom: 1.15rem;
+  background-color: var(--color3);
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  border-radius: 0;
+  transition: 0.3s;
+  color: var(--color1);
+  caret-color: #fff;
+  align-self: center;
+  border: 0.125rem solid var(--color3);
+}
+
+.inputing input:focus {
+  border-radius: 2rem 0 0 2rem;
+  color: #fff;
+  background-color: var(--color1);
+}
+
+.inputing input::placeholder {
+  color: var(--color1);
+}
+
+.inputing textarea {
+  resize: none;
+  background-color: transparent;
+  border: 0.125rem solid var(--color3);
+  border-radius: 0.8rem 0 0 0.8rem;
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  height: 16rem;
+  color: #fff;
+  width: 100%;
+  caret-color: #fff;
+}
+
+.inputing textarea::placeholder {
+  color: #fff;
+  filter: opacity(0.6);
+}
+
+.btnsubmit {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.45rem;
+}
+
+.submitment {
+  padding: 0.42rem 2.35rem;
+  border-radius: 0;
+  border: 0.125rem solid var(--color3);
+  font-size: 1.25rem;
+  letter-spacing: 0.02rem;
+  color: var(--color1);
+  font-weight: 700;
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: var(--color3);
+}
+
+.trasher {
+  background-color: transparent;
+  color: var(--color3);
+  font-size: 1.6rem;
+  padding: 0 0.42rem;
+  cursor: pointer;
+}
+
+.submitment:hover {
+  border-radius: 2rem 0 0 2rem;
+  background-color: var(--color1);
+  color: var(--color3);
+}
+
+.contactme {
+  width: 32rem;
+  background-color: var(--color3);
+  color: var(--color2);
+  padding: 2rem 2rem 2rem 0;
+}
+
+.contactme p::selection {
+  background-color: var(--color2);
+  color: var(--color3);
+}
+
+.contactme h1::selection {
+  background-color: var(--color2);
+  color: var(--color3);
+}
+
+.ngotaks {
+  position: absolute;
+  bottom: 72%;
+  border-top: 3rem solid transparent;
+  border-left: 3.5rem solid var(--color1);
+  border-bottom: 3rem solid transparent;
+}
+
+.contactme h1 {
+  text-align: right;
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.garis-seken {
+  width: 32%;
+  background-color: var(--color2);
+  height: 0.25rem;
+  margin-bottom: 2rem;
+  float: right;
+}
+
+.isicontact {
+  width: 100%;
+  padding-left: 2rem;
+}
+
+.mainpar {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.mydc {
+  text-align: center;
+  font-size: 1.15rem;
+  font-weight: 600;
+  padding: 0.35rem 0;
+  width: 100%;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.15s;
+  border: 0.15rem solid var(--color2);
+  background-color: var(--color2);
+}
+
+.mydc:hover {
+  background: transparent;
+  color: var(--color2);
+}
+
+.garis-lagi {
+  width: 100%;
+  background-color: var(--color2);
+  padding: 0.02rem;
+  display: grid;
+  margin: 1rem 0;
+}
+
+.ikon-sosmed {
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+
+.flexpls {
+  padding-bottom: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.02rem;
+}
+
+.flexpls p {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.flexpls a {
+  color: var(--color1);
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.flexpls a:hover {
+  color: var(--color2);
+}
+
+.flexpls i {
+  font-size: 1.5rem;
+}
+
+.copyrighted {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.copyrighted i {
+  font-size: 1rem;
+}
+
+.copyrighted p {
+  font-size: 1.12rem;
+  font-weight: 600;
+}
+
+.copyrighted a {
+  color: var(--color2);
+  font-size: 1.12rem;
+  font-weight: 600;
+  user-select: none;
+  text-decoration: solid underline var(--color2);
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 85%;
+  }
+  .ngotaks {
+    bottom: 68%;
+  }
+}
+
+@media (max-width: 868px) {
+  .kotak-tengah {
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--color2);
+  }
+  .forming {
+    margin-top: 2.4rem;
+  }
+  .contactme {
+    margin-top: 2.4rem;
+  }
+  .ngotaks {
+    filter: opacity(0);
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+  .forming {
+    margin-top: 0;
+    width: 100%;
+  }
+  .contactme {
+    width: 100%;
+  }
+}
+
+@media (max-width: 414px) {
+  html {
+    font-size: 75%;
+  }
+}
