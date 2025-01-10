@@ -311,13 +311,15 @@ body {
 
 @media (max-width: 768px) {
   html {
-    font-size: 85%;
+    font-size: 86%;
   }
   .forming {
     margin-top: 0;
     width: 100%;
+    padding: 2rem 1rem;
   }
   .contactme {
     width: 100%;
+    padding: 2rem 1rem;
   }
 }
