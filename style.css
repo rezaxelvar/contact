@@ -322,4 +322,13 @@ body {
     width: 100%;
     padding: 2rem 1rem;
   }
+  .isicontact{
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 414px) {
+  html {
+    font-size: 82%;
+  }
 }
