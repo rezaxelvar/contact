@@ -14,8 +14,8 @@
 }
 
 :root {
-  --color1: #b1a1ed;
-  --color2: #9382d4;
+  --color1: #6a7ee0;
+  --color2: #5064cb;
   --color3: #f2f3f4;
 }
 
@@ -211,8 +211,8 @@ body {
   color: #fff;
   cursor: pointer;
   transition: 0.15s;
-  border: 0.15rem solid var(--color2);
-  background-color: var(--color2);
+  border: 0.15rem solid var(--color1);
+  background-color: var(--color1);
 }
 
 .mydc:hover {
